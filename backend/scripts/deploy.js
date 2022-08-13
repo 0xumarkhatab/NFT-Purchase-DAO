@@ -10,7 +10,7 @@ async function main() {
   await fakeNftMarketplace.deployed();
 
   console.log("FakeNFTMarketplace deployed to: ", fakeNftMarketplace.address);
-  // 0xA8EF900f5a65EE2f6e49021D55A625a558977766
+  // 0x6E4BBa570Cc09537C3478206f34dCBf769fFaD40
 
 
   // Now deploy the CryptoDevsDAO contract
@@ -21,13 +21,13 @@ async function main() {
     {
       // This assumes your account has at least 1 ETH in it's account
       // Change this value as you want
-      value: ethers.utils.parseEther("0.1"),
+      value: ethers.utils.parseEther("0.05"),
     }
   );
   await cryptoDevsDAO.deployed();
 
   console.log("CryptoDevsDAO deployed to: ", cryptoDevsDAO.address);
-  // 0xCa938e8344dc7Fc58Da8fF18707D9A79F9ecE7c3
+  // 0x342DA1cB554f5C7A620ebDCc6638F4A8081Ce901
 }
 
 main()

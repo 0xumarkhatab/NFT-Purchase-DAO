@@ -11,7 +11,10 @@ contract FakeNFTMarketplace {
     }
 
     function available(uint256 tokenId) external view returns (bool) {
-        return !(tokens[tokenId] == address(0));
+        if (tokens[tokenId] == address(0)) {
+            return true;
+        }
+        return false;
     }
 
     function getPrice() external view returns (uint256) {

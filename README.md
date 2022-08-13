@@ -1,7 +1,6 @@
 # NFT-Purchase-DAO
-# Initial-Coin-Offering-ICO-for-NFT-marketplace
 
-This is a DAO that exhinits the Good understanding of Blockchain Fundamentals
+This is a DAO that exhibits the Good understanding of Blockchain Fundamentals
 and advanced solidity topics.
 
 This is a  Decentralized platform where any CryptoDev NFT Holder ( hold through my previous DAPP )
